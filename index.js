@@ -5,10 +5,8 @@ let b= 3;
 console.log(b);
 
 const add = (a,b) => a+b;
-const sum = add(a,b);
-console.log(`Sum of two numbers: ${sum}`);
+console.log(`Sum of two numbers: ${add(a,b)}`);
 
-const multiply = (a,b) => a+b;
-const mul = add(a,b);
-console.log(mul);
+const multiply = (a,b) => a*b;
+console.log(`Multiplication of two numbers: ${multiply(a,b)}`);
 
