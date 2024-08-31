@@ -1,0 +1,17 @@
+git init
+
+git status
+git diff
+
+git add .
+
+git status
+git diff				// Press 'q' -->> quit / return  
+
+git commit -m "Commits"
+
+git branch -M main
+git remote add origin https://github.com/ujjawalsingh25/learningGit.git
+git remote -v						// Check Remotes
+
+git push -u origin main
